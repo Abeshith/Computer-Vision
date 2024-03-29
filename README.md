@@ -20,7 +20,8 @@ This Python script detects faces, eyes, and smiles in images using OpenCV.
 - Press any key to close displayed images.
 
 ### Example Output
-![Example]('output images/detect-fromPhotos')
+<img src="https://github.com/Abeshith/Computer-Vision/blob/main/output%20images/Detect-FromPhotos.png" width="400">
+
 
 ### Notes
 - Adjust parameters for better detection.
