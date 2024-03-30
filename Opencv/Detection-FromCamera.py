@@ -1,5 +1,5 @@
 ## FACE EYE AND SMILE DETECTION FROM CAMERA
-
+import cv2
 face_classifier = cv2.CascadeClassifier('./haarcascade/haarcascade_frontalface_default.xml')
 eye_classifier = cv2.CascadeClassifier('./haarcascade/haarcascade_eye.xml')
 smile_classifier = cv2.CascadeClassifier('./haarcascade/haarcascade_smile.xml')
