@@ -1,3 +1,5 @@
+# Detection of FullBody of Human From vidoes
+import cv2
 body_capture = cv2.CascadeClassifier('./haarcascade/haarcascade_fullbody.xml')
 video = cv2.VideoCapture('./walking.avi')
 
