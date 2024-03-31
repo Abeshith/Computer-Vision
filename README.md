@@ -65,6 +65,34 @@ This Python script demonstrates real-time object detection using OpenCV, a power
 
 ---
 
+# Full Body Detection Using OpenCV
+
+This Python script demonstrates real-time full body detection using OpenCV. It utilizes a pre-trained Haar cascade classifier to detect full bodies within a video file.
+
+## Implementation
+
+The script uses OpenCV to detect full bodies in a video file. It loads a pre-trained Haar cascade classifier for full body detection and then processes each frame of the video to identify and draw rectangles around the detected bodies. 
+
+## Usage
+
+1. **Requirements**: Ensure that you have OpenCV installed (`pip install opencv-python`).
+
+2. **Running the Script**: Make sure you have the video file `walking.avi` in the same directory as the script. Execute the Python script.
+
+3. **Exiting the Program**: Press the 'Enter' key to exit the program.
+
+## Notes
+
+- Adjust the parameters (`scaleFactor`, `minNeighbors`, etc.) of the `detectMultiScale` method for better performance based on the size and resolution of the video.
+
+- This script provides a basic example of real-time full body detection. Further optimizations and enhancements can be made based on specific requirements.
+
+## References
+
+- [OpenCV Documentation](https://opencv.org/)
+
+---
+
 
 
 
