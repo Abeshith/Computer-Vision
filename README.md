@@ -1,7 +1,6 @@
 ## COMPUTER VISION USING OPENCV
 ---
-## Face, Eye, and Smile Detection
-
+# FACE , EYE AND SMILE DETECTION FROM PHOTOS
 ### Purpose
 This Python script detects faces, eyes, and smiles in images using OpenCV.
 
