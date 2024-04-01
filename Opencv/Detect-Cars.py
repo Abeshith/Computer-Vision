@@ -1,3 +1,4 @@
+import cv2
 import time
 car_classifier = cv2.CascadeClassifier('./haarcascade/haarcascade_car.xml')
 video = cv2.VideoCapture('./image_examples_cars.avi')
