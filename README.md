@@ -87,7 +87,7 @@ The script uses OpenCV to detect full bodies in a video file. It loads a pre-tra
 
 - This script provides a basic example of real-time full body detection. Further optimizations and enhancements can be made based on specific requirements.
 
-<img src="https://github.com/Abeshith/Computer-Vision/blob/main/output%20images/Detect-FromPhotos.png" width="400">
+<img src="https://github.com/Abeshith/Computer-Vision/blob/main/output%20images/WalkingHumans.png" width="400">
 
 
 ## References
