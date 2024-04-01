@@ -95,6 +95,26 @@ The script uses OpenCV to detect full bodies in a video file. It loads a pre-tra
 - [OpenCV Documentation](https://opencv.org/)
 
 ---
+# Real-time Car Detection in Video
+
+This Python script utilizes OpenCV to detect cars in a video stream in real-time. The Haar cascade classifier is employed for car detection.
+
+## Requirements
+- Python 3.x
+- OpenCV (cv2)
+- Haar Cascade XML file for car detection (`haarcascade_car.xml`)
+- Input video file (`image_examples_cars.avi`)
+
+## Usage
+1. Install Python 3.x and OpenCV.
+2. Download the Haar Cascade XML file (`haarcascade_car.xml`).
+3. Provide the input video file (`image_examples_cars.avi`).
+4. Run the script.
+5. Press 'q' to exit.
+
+## Notes
+- Adjust `detectMultiScale` parameters for better detection.
+- Ensure proper lighting and camera angle.
 
 
 
